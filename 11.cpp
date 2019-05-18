@@ -54,14 +54,16 @@ result = surname;
 cout << result;
 cout << "Vedite Nomer do 20 ili 21 dlay vixoda =";
 cin >> a;
-while (a >= 22)
+while (a >= 22,a<0 || a>22)
 {
 cout << "Oshibka" << endl;
+break;
 cout << "Vedite zanovo =" << endl;
 cin >> a;
 if (a == 21)
 break;
 }
+
 /*!
 \class MyClass
 @brief Ñ‚ÑƒÑ‚ Ð¼Ñ‹ ÑÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°ÐµÐ¼ Ð¸Ð· Ñ„Ð°Ð¹Ð»Ð° Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ð¸ Ð·Ð°Ð¾Ð´Ð½Ð¾ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑÐµÐ¼ Ð½Ð° Ð½Ð°Ð»Ð¸Ñ‡Ð¸Ðµ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ñ Ñ„Ð°Ð¹Ð»Ð°.
